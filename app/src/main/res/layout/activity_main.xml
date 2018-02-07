@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rawsun.asus.marathibeginner.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:id="@+id/numbers"
+            style="@style/MainTextField"
+            android:background="#FD8E09"
+            android:text="Numbers" />
+
+        <TextView
+            android:id="@+id/family"
+            style="@style/MainTextField"
+            android:background="#379237"
+            android:text="Family Members" />
+
+        <TextView
+            android:id="@+id/colors"
+            style="@style/MainTextField"
+            android:background="#8800A0"
+            android:text="Colors" />
+
+        <TextView
+            android:id="@+id/phrases"
+            style="@style/MainTextField"
+            android:layout_width="match_parent"
+            android:background="#16AFCA"
+            android:text="Phrases" />
+        <TextView
+            android:id="@+id/Love"
+            style="@style/MainTextField"
+            android:layout_width="match_parent"
+            android:background="#E91E63"
+            android:text="Love" />
+
+
+
+        <TextView
+            android:id="@+id/shopping"
+            style="@style/MainTextField"
+            android:layout_width="match_parent"
+            android:background="#9E9E9E"
+            android:text="Shopping" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>
